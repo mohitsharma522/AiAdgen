@@ -10,9 +10,6 @@ import projectRouter from "./routes/projectRoutes.js";
 
 const app = express();
 
-app.use(clerkMiddleware())
-
-
 // middleware
 app.use(cors())
 
